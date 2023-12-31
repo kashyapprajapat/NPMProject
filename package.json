@@ -1,0 +1,17 @@
+{
+  "name": "otpcaptchagenerator",
+  "version": "1.0.2",
+  "description": "it is otp and captcha gerator package.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "otpgenerator",
+    "capachagenerator",
+    "otpgenerator npm package",
+    "capachagenerator npm package"
+  ],
+  "author": "kashyap",
+  "license": "ISC"
+}
