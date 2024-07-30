@@ -35,7 +35,7 @@ console.log('Generated CAPTCHA code:', captcha);
 
 ```
 
-npm install your-package-name
+npm install otpcaptchagenerator
 
 -----Real Project usage.
 const { generateOTP, generateCaptcha } = require('otpcaptchagenerator');
