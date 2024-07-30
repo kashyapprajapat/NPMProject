@@ -11,7 +11,7 @@ Generates a numeric OTP of the specified length.
 #### Example:
 
 ```javascript
-const { generateOTP } = require('your-package-name');
+const { generateOTP } = require('otpcaptchagenerator');
 
 const otp = generateOTP(6);
 console.log('Generated OTP:', otp);
@@ -26,7 +26,7 @@ Generates a captcha of the specified length.
 
 #### Example:
 ```
-const { generateCaptcha } = require('your-package-name');
+const { generateCaptcha } = require('otpcaptchagenerator');
 
 const captcha = generateCaptcha(8);
 console.log('Generated CAPTCHA code:', captcha);
@@ -38,7 +38,7 @@ console.log('Generated CAPTCHA code:', captcha);
 npm install your-package-name
 
 -----Real Project usage.
-const { generateOTP, generateCaptcha } = require('your-package-name');
+const { generateOTP, generateCaptcha } = require('otpcaptchagenerator');
 
 const otp = generateOTP(6);
 const captcha = generateCaptcha(8);
