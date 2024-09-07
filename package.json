@@ -1,6 +1,6 @@
 {
   "name": "otpcaptchagenerator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "it is otp and captcha gerator package.",
   "main": "index.js",
   "scripts": {
