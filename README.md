@@ -16,17 +16,22 @@ const { generateOTP } = require('otpcaptchagenerator');
 const otp = generateOTP(6);
 console.log('Generated OTP:', otp);
 
-const { generateCaptcha } = require('otpcaptchagenerator');
+const { generateCaptcha } = require('your-package-name');
 
 const captcha = generateCaptcha(8);
 console.log('Generated CAPTCHA code:', captcha);
+```
+
+
+```
 
 npm install otpcaptchagenerator
 
-const { generateOTP, generateCaptcha } = require('otpcaptchagenerator');
+const { generateOTP, generateCaptcha } = require('your-package-name');
 
 const otp = generateOTP(6);
 const captcha = generateCaptcha(8);
 
 console.log('Generated OTP:', otp);
 console.log('Generated CAPTCHA code:', captcha);
+```
